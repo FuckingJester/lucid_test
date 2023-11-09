@@ -4,11 +4,6 @@ import TagInput from "../Tag/Tag";
 import { useQuery } from "react-query";
 import axios from "axios";
 import styles from "./Calc.module.css";
-import { motion } from "framer-motion";
-
-export const MyComponent = ({ isVisible }) => (
-  <motion.div animate={{ opacity: isVisible ? 1 : 0 }} />
-);
 
 const FormulaEditor = () => {
   const { formula, setFormula, suggestionsList, setSuggestions } = useStore();
