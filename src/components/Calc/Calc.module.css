@@ -1,0 +1,22 @@
+.calc {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.suggests{
+    border-radius: 20px;
+    background-color: #fafafa;
+    box-shadow: 3px 4px 57px 1px rgba(208,195,195,0.85);
+    -webkit-box-shadow: 3px 4px 57px 1px rgba(208,195,195,0.85);
+    -moz-box-shadow: 3px 4px 57px 1px rgba(208,195,195,0.85);
+    padding: 20px;
+    transition: all ease 1s;
+}
+.suggests li:hover {
+    color: red;
+}
+.suggests li{
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}

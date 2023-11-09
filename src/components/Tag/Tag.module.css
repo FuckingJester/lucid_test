@@ -1,0 +1,17 @@
+.tag button{
+    padding:10px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 30px ;
+    background-color: darksalmon;
+    cursor: pointer;
+}
+.tag{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.tag input {
+    background-color: rgb(55, 166, 221);
+    color: white;
+}
